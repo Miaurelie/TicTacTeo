@@ -4,7 +4,7 @@ Lla création d’un agent qui simule le jeu du Tic Tac Toe ou un joueur peut jo
 
 ## 1. Problématique 
 
-Comme vu dans le chapitre précédent, l’algorithme A* consiste à calculer le meilleur chemin vers une destination, dans les jeux avec adversité il n’est pas possible d’utiliser directement A* étant donné que dans ces jeux, le monde n’est pas statique mais dynamique et le joueur peut modifier l’environnement. 
+Comme vu dans le PROJET précédent [Astar](https://github.com/yuceef/Astar), l’algorithme A* consiste à calculer le meilleur chemin vers une destination, dans les jeux avec adversité il n’est pas possible d’utiliser directement A* étant donné que dans ces jeux, le monde n’est pas statique mais dynamique et le joueur peut modifier l’environnement. 
 Afin de réaliser les jeux entre deux adversaires nous utiliserons l’algorithme Minmax et Alpha-Beta, algorithme permettant de résoudre le problème de jeu comme un problème de recherche dans un arbre en visitant l'arbre de jeu pour faire remonter à la racine une valeur (appelée « valeur du jeu ») qui est calculée récursivement. 
 
 
